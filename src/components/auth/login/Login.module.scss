@@ -23,12 +23,32 @@
         flex-direction: column;
         width: 60%;
 
+        h3 {
+            text-align: left;
+            margin-bottom: 3rem;
+        }
+
         input {
-            margin-bottom: 1rem;
+            margin-bottom: 3rem;
             border: none;
             border-bottom: 2px solid white;
             background: none;
             color: white;
+            padding-bottom: 0.5rem;
+            outline: none;
+
+            &::placeholder {
+                color: white;
+                font-size: 100%;
+            }
+        }
+
+        button {
+            width: 100%;
+            background-color: #A52A2A;
+            color: white;
+            border: none;
+            padding: 0.5rem;
         }
     }
 }
