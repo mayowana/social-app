@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-.login {
+.signup {
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -14,9 +14,9 @@
     color: white;
 }
 
-.loginform {
+.signupform {
     backdrop-filter: blur(50px);
-    height: 60vh;
+    min-height: 60vh;
     width: 30vw;
 
     form {
@@ -52,16 +52,14 @@
             border: none;
             padding: 0.5rem;
             cursor: pointer;
+            margin-bottom: 2rem;
         }
     }
 }
 
-.register {
+.login {
     a {
         text-decoration: none;
         color: white;
     }
 }
-
-
-

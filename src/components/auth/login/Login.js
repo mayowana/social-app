@@ -16,7 +16,7 @@ const Login = () => {
                     <button>Login</button>
                     </form>
                 </div>
-                <Link>Don't have an account? Register</Link>
+                <div className={styles.register}><Link to='/signup'>Don't have an account? Register</Link></div>
             </div>
         </>
     )
