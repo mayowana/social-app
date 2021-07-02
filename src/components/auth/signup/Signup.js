@@ -19,7 +19,7 @@ const Signup = () => {
                     <h3>Create an account</h3>
                     <input type='text' placeholder='First name' value={fname} onChange={(e) => setFname(e.target.value)}></input>
                     <input type='text' placeholder='Last name' value={lname} onChange={(e) => setLname(e.target.value)}></input>
-                    <input type='text' placeholder='Username' value={user} onChange={(e) => setUser(e.target.value)}></input>
+                    <input type='email' placeholder='Email' value={user} onChange={(e) => setUser(e.target.value)}></input>
                     <input type='password' placeholder='Password' value={pass} onChange={(e) => setPass(e.target.value)}></input>
                     <button>Sign up</button>
                     </form>

@@ -11,10 +11,10 @@ const Login = () => {
                     <form>
                     <img src={logo} alt='ChoCho' height='100' width='200'></img>
                     <h3>Log in to your account</h3>
-                    <input type='text' placeholder='Username'></input>
-                    <input type='text' placeholder='Password'></input>
+                    <input type='email' placeholder='Email'></input>
+                    <input type='password' placeholder='Password'></input>
                     <button>Login</button>
-                    </form>
+                    </form>npm 
                 </div>
                 <div className={styles.register}><Link to='/signup'>Don't have an account? Register</Link></div>
             </div>
