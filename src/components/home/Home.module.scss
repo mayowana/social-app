@@ -1,22 +1,18 @@
 .home {
     display: flex;
-    height: 100vh;
+    background-color: whitesmoke;
+    margin-top: 6.5rem;
+    min-height: 100vh;
 }
 
 .homebar {
-    background-color: blue;
-    width: 20vw;
-    height: 100vh;
+    flex: 0.25;
 }
 
 .homebox {
-    background-color: red;
-    width: 60vw;
-    height: 100vh;
+    flex: 0.5;
 }
 
 .widgets {
-    background-color: green;
-    width: 20vw;
-    height: 100vh;
+        flex: 0.25;
 }

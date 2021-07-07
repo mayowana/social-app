@@ -14,7 +14,7 @@ const Login = () => {
                     <input type='email' placeholder='Email'></input>
                     <input type='password' placeholder='Password'></input>
                     <button>Login</button>
-                    </form>npm 
+                    </form>
                 </div>
                 <div className={styles.register}><Link to='/signup'>Don't have an account? Register</Link></div>
             </div>
